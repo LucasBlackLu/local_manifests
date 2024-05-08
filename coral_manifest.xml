@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Remotes -->
+    <remote name="github"
+            fetch="https://github.com"
+            clone-depth="1" />
+ <!--Tree -->
+ <project path="device/google/coral" name="LucasBlackLu/android_device_google_coral" remote="github" revision="derp-14" />
+
+ <!--Kernel -->
+ <project path="kernel/google/msm-4.14" name="LucasBlackLu/kernel_google_msm-4.14" remote="github" revision="13" />
+ 
+ <!--Vendor -->
+ <project path="vendor/google/coral" name="TheMuppets/proprietary_vendor_google_coral" remote="github" revision="lineage-21" />
+ 
+ <!--Extras -->
+ <project path="packages/apps/ElmyraService" name="LineageOS/android_packages_apps_ElmyraService " remote="github" revision="lineage-21.0" />
+ 
+</manifest>
